@@ -6,9 +6,6 @@ namespace codeforces_solutions
     {
         static void Main(string[] args)
         {
-
-            // 231A-Team
-
             string[] array;
             int flag, ans = 0;
             string line = Console.ReadLine();

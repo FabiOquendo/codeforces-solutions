@@ -6,25 +6,19 @@ namespace codeforces_solutions
     {
         static void Main(string[] args)
         {
-
-            // 231A-Team
-
-            string[] array;
-            int flag, ans = 0;
             string line = Console.ReadLine();
             int n = int.Parse(line);
-            while(n > 0)
+            while (n > 0)
             {
                 line = Console.ReadLine();
-                array = line.Split(" ");
-                flag = int.Parse(array[0]) + int.Parse(array[1]) + int.Parse(array[2]);
-                if (flag >= 2)
+                if (line.Length > 10)
                 {
-                    ans++;
+                    line = "" + line[0] + (line.Length-2) + line[line.Length-1];
                 }
+                Console.WriteLine(line);
                 n--;
             }
-            Console.WriteLine(ans);
+            
         }
     }
 }
