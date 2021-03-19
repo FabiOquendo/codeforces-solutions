@@ -6,9 +6,6 @@ namespace codeforces_solutions
     {
         static void Main(string[] args)
         {
-
-            // 263A-BeautifulMatrix
-
             int i = 0, j = 0, ans = 0;
             string line1 = Console.ReadLine();
             string line2 = Console.ReadLine();
