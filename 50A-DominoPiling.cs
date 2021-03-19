@@ -6,9 +6,6 @@ namespace codeforces_solutions
     {
         static void Main(string[] args)
         {
-
-            // 158A-NextRound
-
             string line = Console.ReadLine();
             string[] array = line.Split(" ");
             int n = int.Parse(array[0]);
