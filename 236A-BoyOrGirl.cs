@@ -7,9 +7,6 @@ namespace codeforces_solutions
     {
         static void Main(string[] args)
         {
-
-            // 236A-BoyOrGirl
-
             string line = Console.ReadLine();
             HashSet<char> characters = new HashSet<char>();
             for(int i = 0; i < line.Length; i++)
