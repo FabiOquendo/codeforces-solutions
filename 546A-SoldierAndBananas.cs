@@ -6,9 +6,6 @@ namespace codeforces_solutions
     {
         static void Main(string[] args)
         {
-
-            // 546A-SoldierAndBananas
-
             string line = Console.ReadLine();
             string[] array = line.Split(" ");
             long k = long.Parse(array[0]);
