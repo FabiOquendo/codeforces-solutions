@@ -6,9 +6,6 @@ namespace codeforces_solutions
     {
         static void Main(string[] args)
         {
-
-            // 617A-Elephant
-
             string line = Console.ReadLine();
             int n = int.Parse(line);
             int ans = 0;
